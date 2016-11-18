@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">A2 Price Browsing</string>
+    <string name="addnewproduct">Add New Product</string>
+
+    <!--Labels-->
+    <string name="lbl_name">Name</string>
+    <string name="lbl_description">Description:</string>
+    <string name="lbl_price_dollar">Price(Dollar):</string>
+    <string name="lbl_price_bitcoin">Price(BitCoin):</string>
+
+    <!--Buttons-->
+    <string name="btnPrev">Previous</string>
+    <string name="btnNext">Next</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnSave">Save</string>
+    <string name="btnCancel">Cancel</string>
+
+    <!--Menu-->
+    <string name="menu_add">Add New Product</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="lab.csci4100u.jocstech.lab_06_storage.AddContact">
+
+    <LinearLayout
+        android:id="@+id/idField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="ID:"/>
+
+        <EditText
+            android:id="@+id/editTxtID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:text="First Name:"/>
+
+        <EditText
+            android:id="@+id/editTxtFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lastNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:text="Last Name:"/>
+
+        <EditText
+            android:id="@+id/editTxtLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phoneField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:text="Phone#:"/>
+
+        <EditText
+            android:id="@+id/editTxtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:text="@string/addBtn"
+        android:layout_marginTop="70dp"
+        android:onClick="addBtnClicked"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+
+</LinearLayout>

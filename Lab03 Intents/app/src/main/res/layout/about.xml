@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="lab.csci4100u.jocstech.lab3_project.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/textLogin" />
+
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:text="This application is my solution for lab #3 for CSCI 4100u. Copyright Yulong Fang, I wish you have a happy day !" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAbout"
+        android:padding="20dp"
+        android:textSize="25dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlack"
+        android:text="@string/btnFinish"
+        android:onClick="btnFinishClicked" />
+
+
+</RelativeLayout>

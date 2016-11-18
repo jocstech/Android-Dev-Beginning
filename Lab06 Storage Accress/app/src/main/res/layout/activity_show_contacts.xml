@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="lab.csci4100u.jocstech.lab_06_storage.ShowContacts">
+
+    <ListView
+        android:id="@+id/listViewContact"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:onClick="process"
+            android:text="@string/addBtn"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:layout_marginLeft="35dp"
+            android:onClick="process"
+            android:text="@string/deleteBtn"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

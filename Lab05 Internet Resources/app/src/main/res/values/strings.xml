@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"Lab 5 Internet Resources "</string>
+    <string name="title">Internet Resources Demo</string>
+    <string name="company_name">Jocstech Inc</string>
+    <string name="intro">Jocstech is a awesome high-tech internet company founded by Mr. Yulong Fang in 2016, Our goal is to helping people find their needed resources on internet with high efficient. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? </string>
+    <string name="license_agreement">
+        <u>License Agreement</u>
+    </string>
+    <string name="close">Close</string>
+</resources>

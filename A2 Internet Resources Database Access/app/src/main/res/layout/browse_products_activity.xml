@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/browse_products_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showAsAction="ifRoom"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csci4100.uoit.ca.a2pricebrowsing.BrowseProductsActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:padding="1dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutName"
+            android:background="@color/altrColorB"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_weight="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/defaultText"
+                android:text="@string/lbl_name" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_weight="0.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/colorGreen"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDescription"
+            android:background="@color/altrColorA"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblDescription"
+                android:layout_weight="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/defaultText"
+                android:text="@string/lbl_description" />
+
+            <EditText
+                android:id="@+id/editDescription"
+                android:layout_weight="0.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/colorGreen"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutPriceDollar"
+            android:background="@color/altrColorB"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblPriceDollar"
+                android:layout_weight="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/defaultText"
+                android:text="@string/lbl_price_dollar" />
+
+            <EditText
+                android:id="@+id/editPriceDollar"
+                android:layout_weight="0.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/colorGreen"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutPriceBitCoin"
+            android:background="@color/altrColorA"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblPriceBitCoin"
+                android:layout_weight="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/defaultText"
+                android:text="@string/lbl_price_bitcoin" />
+
+            <EditText
+                android:id="@+id/editPriceBitCoin"
+                android:layout_weight="0.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/colorGreen"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBtnGroups"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:onClick="process"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_weight="0.333333"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnPrev"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:onClick="process"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_weight="0.333333"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnNext"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:onClick="process"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_weight="0.333333"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btnDelete"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="survey_questions">
+        <item>Q1: Are you allowed to eat in the classrooms?</item>
+        <item>Q2: Were the course objectives clear?</item>
+        <item>Q3: Are the course procedures and assignments support course objectives?</item>
+        <item>Q4: Is there any involvement in the activities of this course?</item>
+        <item>Q5: Do you feel the tests/exams are too hard to finish?</item>
+    </string-array>
+
+
+</resources>

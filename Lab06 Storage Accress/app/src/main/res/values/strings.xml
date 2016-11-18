@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab 06 Storage Demo</string>
+    <string name="contact">Contact</string>
+    <string name="addBtn">Add</string>
+    <string name="deleteBtn">Delete</string>
+    <string name="textDelte">Choose one to delete:</string>
+    <string name="nothing">Empty Contact List:\nThere is nothing you can delete now!\nAdd some contacts first!</string>
+</resources>

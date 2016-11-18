@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_delete_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="lab.csci4100u.jocstech.lab_06_storage.DeleteContact">
+
+
+    <TextView
+        android:id="@+id/txtDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/textDelte" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtSelected"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="@string/nothing" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:onClick="onClicked"
+        android:textSize="25sp"
+        android:text="@string/deleteBtn" />
+</LinearLayout>

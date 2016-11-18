@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab 3 Project - Demo</string>
+    <!-- activities -->
+    <string name="loginActivityName">Login Activity</string>
+    <string name="aboutActivityName">About Activity</string>
+    <!-- Main layout -->
+    <string name="imgContent">A example picture</string>
+    <string name="textHome">Welcome to my App - Yulong\nThis is such a good chance to learn more about Mobile Devices Development in this lab! Here are two buttons you may click,try it out,see what is going on!</string>
+    <!-- About layout -->
+    <string name="btnFinish">Finish</string>
+    <string name="btnAbout">About</string>
+    <!-- Login layout -->
+    <string name="btnLogin">Login</string>
+    <string name="textLogin">Login Panel</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="usernameHint">Type your username</string>
+    <string name="passwordHint">Type your password</string>
+</resources>

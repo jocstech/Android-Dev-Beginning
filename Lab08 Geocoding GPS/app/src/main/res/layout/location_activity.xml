@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/location_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csci4100.uoit.ca.lab08geocodinggps.ShowLocation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:layout_gravity="center|top"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Current Location Information:" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textAddressLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Address line 1:"/>
+
+        <EditText
+            android:id="@+id/editAddressLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Address line 1]"/>
+
+
+
+        <TextView
+            android:id="@+id/textAddressLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Address line 2:"/>
+
+        <EditText
+            android:id="@+id/editAddressLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Address line 2]"/>
+
+
+
+        <TextView
+            android:id="@+id/textLocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Locality (City):"/>
+
+        <EditText
+            android:id="@+id/editLocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Locality (City)]"/>
+
+
+
+        <TextView
+            android:id="@+id/textAdminArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Admin area (Province):"/>
+
+        <EditText
+            android:id="@+id/editAdminArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Admin area (Province)]"/>
+
+
+
+        <TextView
+            android:id="@+id/textCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Country name:"/>
+
+        <EditText
+            android:id="@+id/editCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Country name]"/>
+
+
+
+        <TextView
+            android:id="@+id/textPostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Postal code:"/>
+
+        <EditText
+            android:id="@+id/editPostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Postal code]"/>
+
+
+
+        <TextView
+            android:id="@+id/textPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="Phone numbe:"/>
+
+        <EditText
+            android:id="@+id/editPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[Phone number]"/>
+
+
+
+        <TextView
+            android:id="@+id/textURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray"
+            android:text="URL:"/>
+
+        <EditText
+            android:id="@+id/editURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlack"
+            android:text="[URL]"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

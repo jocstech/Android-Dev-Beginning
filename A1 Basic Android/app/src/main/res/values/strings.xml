@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">A1 Basic Android</string>
+
+
+    <!--Buttons-->
+    <string name="homeBtn">Enter the survey</string>
+    <string name="yesBtn">YES</string>
+    <string name="noBtn">NO</string>
+
+    <!--Questions-->
+    <string name="question_1">
+        Q1: Are you allowed to eat in the classrooms?
+    </string>
+    <string name="question_2">
+        Q2: Were the course objectives clear?
+    </string>
+    <string name="question_3">
+        Q3: Are the course procedures and assignments support course objectives?
+    </string>
+    <string name="question_4">
+        Q4: Is there any involvement in the activities of this course?
+    </string>
+    <string name="question_5">
+        Q5: Do you feel the tests/exames are too hard to finish?
+    </string>
+</resources>
